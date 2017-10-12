@@ -6,7 +6,11 @@ body {
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
-	
+	margin: 0 auto;
+	width: 620px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 1px;
 	/* put css-rules in this ccs-block here below */
 	
 }
@@ -14,14 +18,22 @@ body {
 h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
-	
+	margin: 0 10px 10px 0;
+	width: 590px;
+	padding: 20px 0 20px 20px;
 	/* put css-rules in this ccs-block here below */
 	
 }
 
 h2 {
 	line-height: 30px;
-	
+	margin: 0 10px 10px 10px;
+	border: solid 3px;
+	border-color: #800080;
+	position: relative;
+	left: -10px;
+	width: 590px;
+	padding: 5px 10px 5px 5px;
 	/* put css-rules in this ccs-block here below */
 	
 }
@@ -29,7 +41,9 @@ h2 {
 p{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
-	
+	margin-bottom: 10px;
+	width: 590px;
+	padding: 10px 10px;
 	/* put css-rules in this ccs-block here below */
 
 }
